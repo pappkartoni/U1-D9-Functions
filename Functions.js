@@ -13,10 +13,10 @@ ASSIGNMENT RULES
 */
 
 function area(l1, l2) {
-    return 2 * (l1 + l2);
+    return l1 * l2;
 };
 
-console.log("area 3x2)", area(3, 2));
+console.log("area 3x2", area(3, 2));
 
 /* EXERCISE 2
  Write a function called "crazySum" which receives two integers as parameters.
