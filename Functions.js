@@ -138,6 +138,5 @@ function giveMeRandom(n) {
 console.log("give random 5", giveMeRandom(5));
 
 module.exports = {
-    area,
     giveMeRandom,
   };

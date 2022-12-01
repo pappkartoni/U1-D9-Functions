@@ -57,7 +57,7 @@ function addToShoppingCart(item, cart) {
      let totalItems = 0;
     for (let i = 0; i < cart.length; i++) {
         totalItems += cart[i].quantity;
-    }
+    };
 
     return totalItems;
 };
@@ -95,7 +95,7 @@ console.log("Max item is", maxShoppingCart(shoppingCart));
 
 function latestShoppingCart(cart) {
     return cart[cart.length-1];
-}
+};
 
 console.log("latest item is", latestShoppingCart(shoppingCart));
 
