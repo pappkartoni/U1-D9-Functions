@@ -12,7 +12,7 @@ console.log("arrayToCheck", arrayToCheck);
 function checkArray(arr) {
     let partSum = 0;
     for (let i = 0; i < arr.length; i++) {
-        console.log(`Is the ${i}th element bigger than 5?`, arr[i] > 5);
+        console.log(`Is the element #${i}bigger than 5?`, arr[i] > 5);
         if (arr[i] > 5) {
             partSum += arr[i];
         };
