@@ -36,7 +36,7 @@ console.log("sum 4 and 4", crazySum(4, 4));
 */
 
 function crazyDiff(int) {
-    return (int > 19) ? 3 * (int - 19) : int - 19;
+    return (int > 19) ? 3 * (int - 19) : 19 - int;
 }; 
 
 console.log("diff 14", crazyDiff(14));
@@ -128,7 +128,7 @@ function giveMeRandom(n) {
     let array = [];
     while(n > 0)
     {
-        array.push(Math.random() * 10); //floor this for ints >>> Math.floor(Math.random() * 11);
+        array.push(Math.random() * 10); //floor this for ints >>> Math.floor(Math.random() * 11); 11 because rand is in [0,1)
         n--;
     };
 
@@ -136,3 +136,8 @@ function giveMeRandom(n) {
 };
 
 console.log("give random 5", giveMeRandom(5));
+
+module.exports = {
+    area,
+    giveMeRandom,
+  };
